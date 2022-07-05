@@ -1,0 +1,8 @@
+#!/bin/bash
+FILES="./*"
+for f in $FILES
+do
+        git add "$f"
+        git commit -m "$f"
+        git push
+done
